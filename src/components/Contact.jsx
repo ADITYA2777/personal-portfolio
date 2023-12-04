@@ -39,7 +39,7 @@ const Contact = () => {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href:"/resume1.pdf",
+      href:"/adityareume.pdf",
       download: true,
     },
   ];
