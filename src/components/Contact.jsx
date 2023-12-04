@@ -39,7 +39,7 @@ const Contact = () => {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href:"/resume.png",
+      href:"/resume1.pdf",
       download: true,
     },
   ];
@@ -49,7 +49,7 @@ const Contact = () => {
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white min-h-screen"
     >
       <div className="flex flex-col justify-center max-w-screen-lg mx-auto h-full ">
-        <div className="pb-8">
+        <div className="pb-8 m-4">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact
           </p>
