@@ -22,27 +22,27 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: ecommerce,
-      demo: "app",
-      code: "https://github.com/ADITYA2777/jewellery-ecommerice.git",
+      src: google,
+      demo: "https://lnkd.in/d2xnUzpj",
+      code: "https://lnkd.in/d5F8JMZN)",
     },
     {
       id: 4,
-      src: google,
-      demo: "https://netflixgpt-ad.netlify.app",
-      code: "https://github.com/ADITYA2777/NetflixGpt.git",
+      src: netpage,
+      demo: "https://lnkd.in/dkvp8KQF",
+      code: "https://lnkd.in/dEniUcfn",
     },
     {
       id: 5,
-      src: netpage,
-      demo: "https://netflixgpt-ad.netlify.app",
-      code: "https://github.com/ADITYA2777/NetflixGpt.git",
+      src: online,
+      demo: "https://kidstoy.netlify.app",
+      code: "https://lnkd.in/dksyc2en",
     },
     {
       id: 6,
-      src: online,
-      demo: "https://netflixgpt-ad.netlify.app",
-      code: "https://github.com/ADITYA2777/NetflixGpt.git",
+      src: ecommerce,
+      demo: "https://jewllery-ecommerce-html.netlify.app",
+      code: "https://github.com/ADITYA2777/jewellery-ecommerice.git",
     },
   ];
 
@@ -68,9 +68,12 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 px-4 sm:px-0">
-          {portfolio.map(({ id, src ,demo,code }) => (
-            <div key={id} className="overflow-hidden rounded-lg shadow-md">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 px-4 sm:px-0 relative z-10">
+          {portfolio.map(({ id, src, demo, code }) => (
+            <div
+              key={id}
+              className="overflow-hidden rounded-lg shadow-md "
+            >
               <img
                 className="object-cover w-full h-48 sm:h-64 md:h-72 transition-transform transform hover:scale-105"
                 src={src}
@@ -78,13 +81,13 @@ const Portfolio = () => {
               />
               <div className="flex justify-center items-center mt-4 space-x-4">
                 <button
-                  onClick={()=>handlerToDemoLinks(demo)}
+                  onClick={() => handlerToDemoLinks(demo)}
                   className="w-1/2 py-3 px-5 bg-blue-500 text-white rounded-md transition-transform transform hover:scale-105"
                 >
                   Demo
                 </button>
                 <button
-                  onClick={()=>hanlerToCodelink(code)}
+                  onClick={() => hanlerToCodelink(code)}
                   className="w-1/2 py-3 px-6 bg-green-500 text-white rounded-md transition-transform transform hover:scale-105"
                 >
                   Code

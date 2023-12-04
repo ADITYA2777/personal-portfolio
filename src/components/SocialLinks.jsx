@@ -1,55 +1,54 @@
-import React from 'react'
-import {FaGithub,FaLinkedin}from 'react-icons/fa'
-import {HiOutlineMail}from 'react-icons/hi'
-import {BsFillPersonLinesFill}from 'react-icons/bs'
+import React from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const SocialLinks = () => {
-
-    const links = [
-      {
-        id: 1,
-        child: (
-          <>
-            LinkedIn
-            <FaLinkedin size={30} />
-          </>
-        ),
-        href: "linkedin.com/in/aditya-jain-645709246",
-        style:"rounded-tr-md",
-      },
-      {
-        id: 2,
-        child: (
-          <>
-            GitHub
-            <FaGithub size={30} />
-          </>
-        ),
-        href: "https://github.com/ADITYA2777",
-      },
-      {
-        id: 3,
-        child: (
-          <>
-            Mail
-            <HiOutlineMail  size={30} />
-          </>
-        ),
-        href: "mailto:ajboss01032000@gmail.com",
-      },
-      {
-        id: 4,
-        child: (
-          <>
-            Resume
-            <BsFillPersonLinesFill size={30} />
-          </>
-        ),
-        href: "/resume.png",
-          style:"rounded-br-md",
-          download:true, 
-      },
-    ];
+  const links = [
+    {
+      id: 1,
+      child: (
+        <>
+          LinkedIn
+          <FaLinkedin size={30} />
+        </>
+      ),
+      href:"https://linkedin.com/in/aditya-jain-645709246",
+      style: "rounded-tr-md",
+    },
+    {
+      id: 2,
+      child: (
+        <>
+          GitHub
+          <FaGithub size={30} />
+        </>
+      ),
+      href: "https://github.com/ADITYA2777",
+    },
+    {
+      id: 3,
+      child: (
+        <>
+          Mail
+          <HiOutlineMail size={30} />
+        </>
+      ),
+      href: "mailto:ajboss01032000@gmail.com",
+    },
+    {
+      id: 4,
+      child: (
+        <>
+          Resume
+          <BsFillPersonLinesFill size={30} />
+        </>
+      ),
+      href: "/resume1.pdf",
+      style: "rounded-br-md",
+      download: true,
+    },
+  ];
   return (
     <div className=" hidden lg:flex flex-col top-[35%] left-0 fixed">
       <ul>
@@ -76,6 +75,6 @@ const SocialLinks = () => {
       </ul>
     </div>
   );
-}
+};
 
-export default SocialLinks
+export default SocialLinks;

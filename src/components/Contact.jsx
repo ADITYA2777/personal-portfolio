@@ -12,7 +12,7 @@ const Contact = () => {
           <FaLinkedin size={30} />
         </>
       ),
-      href: "linkedin.com/in/aditya-jain-645709246",
+      href: "https://linkedin.com/in/aditya-jain-645709246",
     },
     {
       id: 2,
@@ -39,7 +39,7 @@ const Contact = () => {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/resume.png",
+      href:"/resume.png",
       download: true,
     },
   ];
@@ -56,7 +56,7 @@ const Contact = () => {
           <p className="py-6">Submit the form below to get in touch with me</p>
         </div>
 
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center m-4">
           <form
             action="https://getform.io/f/5bfaeb1b-464e-4d0b-8a39-209fd0b00aa1"
             method="POST"

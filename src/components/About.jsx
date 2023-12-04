@@ -14,23 +14,23 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
-          quis deleniti voluptates quo commodi ab repudiandae dignissimos
-          voluptatum facilis reiciendis quidem possimus quam sed, asperiores
-          modi magnam blanditiis qui! Illo, veritatis atque, fuga libero
-          asperiores, ratione officiis esse corrupti ipsam vel tempore quidem
-          cupiditate gvoluptate optio sapiente quia unde ut!
+          A passionate Front-end Developer dedicated to translating creative
+          ideas into interactive and user-friendly web experiences. With a keen
+          eye for design and a knack for cutting-edge technologies, I thrive on
+          crafting visually appealing and responsive websites. My commitment to
+          clean code, performance optimization, and continuous learning allows
+          me to stay at the forefront of web development trends. Let's
+          collaborate and turn your vision into a digital reality!
         </p>
 
         <br />
 
         <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-          repellendus ut eligendi veniam, itaque ea reprehenderit necessitatibus
-          velit consectetur distinctio doloremque ex obcaecati nam iure eos
-          dolor sequi maxime nulla minus? Nobis consectetur doloribus ea laborum
-          ipsum impedit eius inventore et, maiores excepturi eligendi fugit
-          voluptate ab placeat, nihil saepe?{" "}
+          "As a Frontend Developer, I'm dedicated to bringing digital visions to
+          life through clean, responsive, and visually engaging web interfaces.
+          With a passion for both design aesthetics and efficient functionality,
+          I strive to create seamless user experiences that leave a lasting
+          impact."
         </p>
       </div>
     </div>

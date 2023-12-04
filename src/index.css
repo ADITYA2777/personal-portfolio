@@ -14,3 +14,8 @@
         font-family: 'Raleway', sans-serif;
     }
 }
+
+.portfolio-item {
+    margin-bottom: 20px;
+    /* Adjust the margin as needed */
+}

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 
-
 const NavBar = () => {
   const [nav, SetNav] = useState(false);
 
@@ -30,7 +29,7 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 bg-black fixed text-white">
+    <div className="flex justify-between items-center w-full h-20 px-4 bg-black fixed z-50 text-white">
       <div>
         <h1 className="text-5xl font-signature ml-2">Aditya</h1>
       </div>
@@ -62,7 +61,12 @@ const NavBar = () => {
               key={id}
               className="cursor-pointer px-4 capitalize py-6 text-4xl"
             >
-              <Link onClick={()=>SetNav(!nav)} to={link} smooth duration={500}>
+              <Link
+                onClick={() => SetNav(!nav)}
+                to={link}
+                smooth
+                duration={500}
+              >
                 {link}
               </Link>
             </li>
