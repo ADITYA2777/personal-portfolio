@@ -13,7 +13,7 @@ const SocialLinks = () => {
           <FaLinkedin size={30} />
         </>
       ),
-      href:"https://linkedin.com/in/aditya-jain-645709246",
+      href: "https://linkedin.com/in/aditya-jain-645709246",
       style: "rounded-tr-md",
     },
     {
@@ -44,7 +44,7 @@ const SocialLinks = () => {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href:"/adityareume.pdf",
+      href:"/AdityaReume01.pdf",
       style: "rounded-br-md",
       download: true,
     },
